@@ -1,3 +1,4 @@
-body{
-    background-color: aqua;
+
+.list-group{
+    --bs-list-group-bg:transparent;
 }
