@@ -8,15 +8,15 @@
 }
 
 i.fa-brands.fa-facebook:hover{
-    color: rgb(216, 221, 225);
+    color: #d8dde1;
 }
 i.fa-brands.fa-linkedin:hover{
-    color: rgb(186, 214, 157);
+    color: #bad69d;
 }
 i.fa-brands.fa-instagram:hover{
-    color: rgb(198, 75, 21);
+    color: #c64b15;
 }
 i.fa-solid.fa-user:hover{
-    color: rgb(21, 145, 48);
+    color: #159130;
 }
 
