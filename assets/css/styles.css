@@ -1,4 +1,9 @@
 .navbar.navbar-expand-lg.bg-secondary{
-    background-color:rgba(16, 45, 62, 0.067);
+   background-color: rgb(62, 13, 83) !important;
+}
+.list-group{
+    --bs-list-group-bg:transparent !important;
+    --bs-list-group-border-color: transparent !important;
+    --bs-list-group-color: #315f8e !important;
 }
 
