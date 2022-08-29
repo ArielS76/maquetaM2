@@ -1,10 +1,21 @@
+
+body{
+    background-image: url(/assets/img/se.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
 .navbar.navbar-expand-lg.bg-secondary{
-   background-color: rgb(62, 13, 83) !important;
+   background-color: rgb(40, 46, 58) !important;
 }
 .list-group{
     --bs-list-group-bg:transparent !important;
     --bs-list-group-border-color: transparent !important;
-    --bs-list-group-color: #315f8e !important;
+    --bs-list-group-color: #97fff3 !important;
 }
 
 i.fa-brands.fa-facebook:hover{
@@ -20,3 +31,20 @@ i.fa-solid.fa-user:hover{
     color: #159130;
 }
 
+#font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(143, 134, 4);
+}
+
+section.about{
+    margin-left: 20%;
+}
+
+section.edu{
+    margin-left: 20%;
+}
+
+.row{
+  
+   padding-top: 5% ;
+}
