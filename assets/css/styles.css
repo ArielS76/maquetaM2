@@ -1,16 +1,20 @@
 
 body{
-    background-image: url(/assets/img/se.jpg);
+
+    
     background-size: 100%;
     background-repeat: no-repeat;
+}
+#colorNombre{
+    font-style: italic;
+    color: #e2af41;
 }
 
 
 
 
-
 .navbar.navbar-expand-lg.bg-secondary{
-   background-color: rgb(40, 46, 58) !important;
+   background-color: #282e3a !important;
 }
 .list-group{
     --bs-list-group-bg:transparent !important;
@@ -33,18 +37,132 @@ i.fa-solid.fa-user:hover{
 
 #font{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    color: rgb(143, 134, 4);
+    color: #121202;
 }
 
 section.about{
-    margin-left: 20%;
+    margin-left: 0%;
+    background-image: url(/assets/img/edu.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
 }
 
 section.edu{
-    margin-left: 20%;
+    margin-left: 0%;
+    background-image:  url(/assets/img/edu.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+section.pro{
+    margin-left: 0%;
+    background-image: url(/assets/img/edu.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
 }
 
 .row{
   
    padding-top: 5% ;
 }
+header.banner{
+    background-image: url(/assets/img/846628.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 20%;
+}
+
+#bienvenida{
+    text-align: center;
+    color: #202f4d;
+}
+section.experiencia{
+    margin-left: 0%;
+    background-image:  url(/assets/img/experienci.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+section,skills{
+    background-image: url(/assets/img/edu.jpg);
+}
+
+/*progress bar*/
+
+
+.progress-circle {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ebebeb; }
+  
+  .progress-circle:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: colorload 2s;
+    animation: colorload 2s; }
+  
+  .progress-circle span {
+    font-size: 1rem;
+    color: #8b8b8b;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin-left: -45px;
+    margin-top: -45px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1; }
+  
+  .progress-circle span:after {
+    content: "%";
+    font-weight: 600;
+    color: #8b8b8b; }
+  
+ 
+    .progress-circle.progress-51:after {
+        background-image: linear-gradient(-86.4deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+ 
+
+        .progress-circle.progress-54:after {
+            background-image: linear-gradient(-75.6deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+            
+            
+            .progress-circle.progress-65:after {
+                background-image: linear-gradient(-36deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+                
+                
+                .progress-circle.progress-88:after {
+                    background-image: linear-gradient(46.8deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+
+                    .progress-circle.progress-97:after {
+                        background-image: linear-gradient(79.2deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+                        
+                        .progress-circle.progress-91:after {                       
+                            background-image: linear-gradient(57.6deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+
+
+                            /*footer*/
+
+
+                            footer{
+                                background-color: #202f4d;
+                                text-align: center;
+                                color:#94f241 ;
+                                font-size: 30px;
+                               padding-bottom:  0.5%;
+                            }
