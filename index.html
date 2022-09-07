@@ -19,7 +19,7 @@
   
           <ul class="list-group list-group-horizontal">
             <li class="list-group-item">
-              <i class="fa-brands fa-linkedin" ></i>
+              <i class="fa-brands fa-linkedin " ></i>
             </li>
             <li class="list-group-item">
               <i class="fa-brands fa-instagram"></i>
@@ -28,7 +28,7 @@
               <i class="fa-brands fa-facebook"></i>
             </li>
              <!-- Button trigger modal -->
-            <li class="list-group-item"><i class="fa-solid fa-user "  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>          
+            <li class="list-group-item"><i class="fa-solid fa-user-lock" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>          
             </li>
           </ul>
 
@@ -58,8 +58,8 @@
         </div>
       </div>
       <div class="modal-footer">
+        <a href="dashboard.html"><button type="button" class="btn btn-primary">Iniciar Sesion</button></a>
         
-        <button type="button" class="btn btn-primary">Iniciar Sesion</button>
       </div>
     </div>
   </div>
@@ -71,13 +71,16 @@
 
   <div class="container text-center>
     <div class="col-3">
-    <img src="/assets/img/ariel.png" class="rounded-circle" width="20%" alt="..." title="...">
+      <h1 id="bienvenida">Bienvenido a mi Portfolio</h1>
+    <img src="/assets/img/ariel.png" class="rounded-circle" width="20%" >
+    
     <h4 id="colorNombre">
       Ariel Ignacio Solis
     </h4> 
+   
   </div>
     </div>
-    <h1 id="bienvenida">Bienvenido a mi Portfolio</h1>
+    
 </header>
 
 <section id="sobre-mi" class="about">
@@ -119,23 +122,32 @@
 
 <section id="educacion" class="edu">
   <div id="font">
-    <div class="container text-center">
+    <div class="container">
       <div class="row">
-        <div class="col-3">
-          <img src="/assets/img/iac.jpg" class="rounded-circle" width="20%" alt="..." title="...">
-          <img src="/assets/img/argpro.jpg" class="rounded-circle" width="20%" alt="..." title="...">
-          <img src="/assets/img/netacad.png" class="rounded-circle" width="20%" alt="..." title="...">
+        <div class="col-12 mt-4">
           <h4 id="font">
-           Educacion
-           </h4>
-           </div>
-             <div class="col-9 mt-4">
-              <h6 id="font">
-              instituto argentino de computacion . titulo obtenido "Operador office Full Año 2010(Excel, Powert point, Access, World, One Note, Internet)curso argentina programa. titulo obtenido "desarrollador web full stack java" Año 2022. Cisco netacad.com, titulo obtenido, SysAdmin linux bash Año 2021. 
-              </h6>
-              
-          
+            Educacion
+            </h4>
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">
+              <img src="/assets/img/iac.jpg" class="rounded-circle" width="10%" alt="..." title="...">
+              <h6 id="font">instituto argentino de computacion . titulo obtenido "Operador office Full Año 2010(Excel, Powert point, Access, World, One Note, Internet)</h6>
+            </li>
+            <li class="list-group-item">
+              <img src="/assets/img/argpro.jpg" class="rounded-circle" width="20%" alt="..." title="...">
+              <h6 id="font"> curso argentina programa. titulo obtenido "desarrollador web full stack java" Año 2022</h6>
+            </li>
+            <li class="list-group-item">
+              <img src="/assets/img/netacad.png" class="rounded-circle" width="20%" alt="..." title="...">
+              <h6 id="font">Cisco netacad.com, titulo obtenido. SysAdmin linux bash Año 2021.</h6>
+            </li>
+         </ul>
         </div>
+          
+         
+          
+           
+          
        
           
       
@@ -181,7 +193,7 @@
   <div class="container text-center">
     <h4>Hard And Soft Skills</h4>
     <div class="row">
-      <div class="col-6">
+      <div class="col-12">
 
     <div class="progress-circle-container">
     <div class="progress-circle progress-51"><span><img src="assets/img/java.jpg" width="60%">51 </span>
@@ -200,7 +212,11 @@
 </div>
 
 </section>
+<!--formLogin-->
 
+<div>
+  <a href="dashboard.html">link</a>
+</div>
 
   
     <footer>

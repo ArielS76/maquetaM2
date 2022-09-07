@@ -8,6 +8,7 @@ body{
 #colorNombre{
     font-style: italic;
     color: #e2af41;
+    margin-left: 42%;
 }
 
 
@@ -32,12 +33,18 @@ i.fa-brands.fa-instagram:hover{
     color: #c64b15;
 }
 i.fa-solid.fa-user:hover{
-    color: #159130;
+    color: #ecf4ed;
 }
 
 #font{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     color: #121202;
+    text-align: center;
+}
+.rounded-circle{
+    margin-top: 5%;
+    margin-left: 40%;
+    
 }
 
 section.about{
@@ -50,6 +57,7 @@ section.about{
 
 section.edu{
     margin-left: 0%;
+    
     background-image:  url(/assets/img/edu.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -70,21 +78,24 @@ header.banner{
     background-image: url(/assets/img/846628.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-bottom: 20%;
+    padding-bottom: 10%;
 }
 
 #bienvenida{
     text-align: center;
-    color: #202f4d;
+    color: #202f4d; 
 }
+
+
 section.experiencia{
     margin-left: 0%;
     background-image:  url(/assets/img/experienci.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
-section,skills{
+section.skills{
     background-image: url(/assets/img/edu.jpg);
+  text-align: center;
 }
 
 /*progress bar*/
@@ -166,3 +177,13 @@ section,skills{
                                 font-size: 30px;
                                padding-bottom:  0.5%;
                             }
+
+/*dashboard*/
+
+i.fa-solid.fa-right-from-bracket:hover{
+    --bs-list-group-bg:transparent !important;
+    --bs-list-group-border-color: transparent !important;
+    --bs-list-group-color: #97fff3 !important;
+    color: #66b8ff;
+
+}
