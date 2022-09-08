@@ -20,7 +20,7 @@ body{
 .list-group{
     --bs-list-group-bg:transparent !important;
     --bs-list-group-border-color: transparent !important;
-    --bs-list-group-color: #97fff3 !important;
+    --bs-list-group-color: #4665a9 !important;
 }
 
 i.fa-brands.fa-facebook:hover{
@@ -49,25 +49,35 @@ i.fa-solid.fa-user:hover{
 
 section.about{
     margin-left: 0%;
-    background-image: url(/assets/img/edu.jpg);
+    background-image: url(/assets/img/Orange\ Fun.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 
 }
 
 section.edu{
-    margin-left: 0%;
     
-    background-image:  url(/assets/img/edu.jpg);
+    
+    background-image:  url(/assets/img/Mirage.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 section.pro{
-    margin-left: 0%;
-    background-image: url(/assets/img/edu.jpg);
+ 
+    background-image: url(/assets/img/Steel\ Gray.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     
+}
+section.experiencia{
+    margin-left: 0%;
+    background-image:  url(/assets/img/Horizon.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+section.skills{
+    background-image: url(/assets/img/Aqua\ Marine.jpg);
+  text-align: center;
 }
 
 .row{
@@ -87,16 +97,7 @@ header.banner{
 }
 
 
-section.experiencia{
-    margin-left: 0%;
-    background-image:  url(/assets/img/experienci.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-section.skills{
-    background-image: url(/assets/img/edu.jpg);
-  text-align: center;
-}
+
 
 /*progress bar*/
 
