@@ -78,11 +78,42 @@
       <h1 id="bienvenida">Bienvenido a mi Portfolio</h1>
     <img src="/assets/img/ariel.png" class="rounded-circle" width="20%" >
     <i class="fa-solid fa-pen-to-square">  </i><i class="fa-solid fa-delete-left"></i>
-    
+    <div>
     <h4 id="colorNombre">
-      Ariel Ignacio Solis   <i class="fa-solid fa-pen-to-square"></i><i class="fa-solid fa-delete-left"></i>
-    </h4> 
- 
+      Ariel Ignacio Solis
+       <i class="fa-solid fa-pen-to-square" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i><i class="fa-solid fa-delete-left" type=button></i>
+      </h4>
+  </div>
+    <!--modal edicion nombre  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Edicion</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3 row">
+              <label form="Editar" class="col-sm-2 col-form-label">Editar</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control-plaintext" id="statictext" value="">
+              </div>
+            </div>
+            <!-- <div class="mb-3 row"> -->
+              <!-- <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword">
+              </div> -->
+            <!-- </div> -->
+    
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Modificar</button>
+            
+          </div>
+        </div>
+       </div>
+      </div>
    
   </div>
     </div>
@@ -100,12 +131,44 @@
           </h4>
           <h6 id="font">
             mi nombre es Ariel ignacio Solis,soy Desarrollador web full Stack, estudie en el curso de argentina programa y llevo mas de 10 anios como autodidacta aprendiendo por mi cuenta.   
-            <i class="fa-solid fa-pen-to-square" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i><i class="fa-solid fa-delete-left"></i>
+            <i class="fa-solid fa-pen-to-square" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i><i class="fa-solid fa-delete-left" type="button"></i>
           </h6>
     </div>
     <div class="col-3"></div>
   </div>
 </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Edicion</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label form="Editar" class="col-sm-2 col-form-label">Editar</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control-plaintext" id="statictext" value="">
+          </div>
+        </div>
+        <!-- <div class="mb-3 row"> -->
+          <!-- <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+          </div> -->
+        <!-- </div> -->
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Modificar</button>
+        
+      </div>
+    </div>
+   </div>
+  </div>
 </section>
 
 <section id="experiencia" class="experiencia">
