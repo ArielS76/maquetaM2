@@ -17,6 +17,7 @@ body{
 
 .navbar.navbar-expand-lg.bg-secondary{
    background-color: #282e3a !important;
+
 }
 .list-group{
     --bs-list-group-bg:transparent !important;
@@ -26,6 +27,7 @@ body{
 
 i.fa-brands.fa-facebook:hover{
     color: #d8dde1;
+    width: 100%;
 }
 i.fa-brands.fa-linkedin:hover{
     color: #bad69d;
@@ -42,17 +44,24 @@ i.fa-solid.fa-user:hover{
     color: #121202;
     text-align: center;
 }
+#font1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #121202;
+    text-align: right;
+}
 .rounded-circle{
     margin-top: 5%;
     margin-left: 40%;
     
 }
 
+
 section.about{
     margin-left: 0%;
     background-image: url(/assets/img/Orange\ Fun.jpg);
-    background-size: 100%;
+    background-size: 200%;
     background-repeat: no-repeat;
+    
 
 }
 
@@ -62,12 +71,14 @@ section.edu{
     background-image:  url(/assets/img/Mirage.jpg);
     background-size: 300%;
     background-repeat: no-repeat;
+    
 }
 section.pro{
  
     background-image: url(/assets/img/Steel\ Gray.jpg);
     background-size: 300%;
     background-repeat: no-repeat;
+   
     
 }
 section.experiencia{
@@ -75,10 +86,13 @@ section.experiencia{
     background-image:  url(/assets/img/Horizon.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    
 }
 section.skills{
     background-image: url(/assets/img/Horizon.jpg);
   text-align: center;
+  background-size: 100%;
+  
 }
 
 .row{
@@ -92,6 +106,7 @@ header.banner{
     padding-bottom: 10%;
     padding-top: 10%;
     background-position: 30%;
+    
 }
 
 #bienvenida{
